@@ -1,0 +1,19 @@
+1. Clone the repository
+Open your terminal or Termux app and run:
+git clone https://github.com/ECOhotz27/ecoScan4x.git
+
+2. Change directory
+Navigate into the project folder:
+cd ecoScan4x
+
+3. Run the tool
+Make sure you have Python installed. If you’re using Termux, you can install Python with:
+pkg install python
+
+Run the scanner on a URL:
+python3 ecoScan4x.py https://example.com
+Or run it with a file containing multiple URLs:
+python3 ecoScan4x.py targets.txt
+
+4. Check results
+Results are saved automatically in the project folder as TXT, JSON, and CSV files after the scan completes.
