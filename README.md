@@ -2,6 +2,17 @@
 # ecoScan4x
 
 ecoScan4x is a simple Python security header scanner that checks if a website has important HTTP security headers and highlights missing headers and associated risk levels.
+The tool scans the target website’s HTTP response headers and tells you:
+
+Which security headers are present and properly configured
+
+Which important security headers are missing
+
+The overall risk level based on missing headers (High, Medium, or Low)
+
+
+By using ecoScan4x, website owners and security testers can quickly identify weaknesses in website security and take action to improve protection.
+
 
 ## Features
 
